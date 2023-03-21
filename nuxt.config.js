@@ -50,7 +50,13 @@ export default {
         content: 'summary',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Alex+Brush&family=Manrope:wght@500&display=swap",
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -63,11 +69,36 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n',],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  i18n: {
+    locales: [
+      {
+        name: 'English',
+        code: 'en',
+        iso: 'en-US',
+        file: 'en.json',
+        dir: 'ltr'
+      },
+      {
+        name: 'Arabic',
+        code: 'ar',
+        iso: 'ar-AR',
+        file: 'ar.json',
+        dir: 'rlt'
+      }
+    ],
+    lazy: true,
+    langDir: 'locales/',
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en'
+    }
+  },
 }
