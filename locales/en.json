@@ -54,6 +54,23 @@
   },
   "homeContact": {
     "title": "Contact us"
+  },
+  "footer": {
+    "getApp": "Get the app",
+    "company": "Company",
+    "about": "About bwadl",
+    "products": "Products",
+    "letterOfGuarantee": "Letter of Guarantee",
+    "accounts": "Accounts",
+    "paymentsAndTransfers": "Payments and Transfers",
+    "home": "Home",
+    "why": "Why choose bwadl?",
+    "centralizedView": "Centralized view",
+    "fullControl": "Full Control",
+    "security": "Security",
+    "faq": "FAQ",
+    "copyright": "Copyright © 2023 by BWATECH. All rights reserved",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy"
   }
-
 }

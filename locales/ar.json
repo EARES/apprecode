@@ -54,5 +54,23 @@
   },
   "homeContact": {
     "title": "تواصل معنا"
+  },
+  "footer": {
+    "getApp": "إحصل على التطبيق",
+    "company": "الشركة",
+    "about": "عن بوادل",
+    "products": "المنتجات",
+    "letterOfGuarantee": "الضمانات البنكية",
+    "accounts": "الحسابات",
+    "paymentsAndTransfers": "المدفوعات والتحويلات",
+    "home": "الصفحه الرئيسية",
+    "why": "لماذا تختار بوادل",
+    "centralizedView": "نظرة شاملة مركزية",
+    "fullControl": "التحكم الكامل",
+    "security": "الأمان",
+    "faq": "الأسئلة الشائعة",
+    "copyright": "جميع الحقوق محفوظة لشركة بواتك © 2023",
+    "terms": "الشروط والأحكام",
+    "privacy": "سياسة الخصوصية"
   }
 }

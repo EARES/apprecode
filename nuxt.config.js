@@ -69,7 +69,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n',],
+  buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n', '@nuxtjs/axios'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
@@ -91,14 +91,24 @@ export default {
         code: 'ar',
         iso: 'ar-AR',
         file: 'ar.json',
-        dir: 'rlt'
+        dir: 'rtl'
       }
     ],
     lazy: true,
+    defaultDirection: "ltr",
     langDir: 'locales/',
     defaultLocale: 'en',
     vueI18n: {
       fallbackLocale: 'en'
+    }
+  },
+
+  axios: {
+    baseURL: 'https://apprecode.com/api',
+    headers: {
+      common: {
+        Authorization: 'Bearer token'
+      }
     }
   },
 }

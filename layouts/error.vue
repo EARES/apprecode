@@ -19,7 +19,7 @@
           <span
             class="relative block px-8 py-3 bg-[#1A2238] border border-current"
           >
-            <n-link to="/">Go Home</n-link>
+            <nuxt-link to="/">Go Home</nuxt-link>
           </span>
         </a>
       </button>
