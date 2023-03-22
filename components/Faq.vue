@@ -98,7 +98,7 @@
           class="w-full flex flex-col bg-white text-bwa-gray-100 rounded-[8px] p-[26px] lg:p-[34px]"
         >
           <div
-            class="w-full text-15 lg:text-24 flex items-center justify-between cursor-pointeraccordion-header"
+            class="w-full text-15 lg:text-24 flex items-center justify-between cursor-pointer accordion-header"
           >
             <span class="flex-grow font-bold"
               >{{ $t('homeFaq.faqQuestion6') }}</span
