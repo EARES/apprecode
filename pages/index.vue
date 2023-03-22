@@ -18,17 +18,17 @@ export default {
   name: 'IndexPage',
   head() {
     return {
-      title: 'Home',
+      title: 'AppreCode',
       meta: [
         {
           hid: 'og-title',
           property: 'og:title',
-          content: 'Home | Apprecode',
+          content: 'AppreCode',
         },
         {
           hid: 'twitter-title',
           property: 'twitter:title',
-          content: 'Home | Apprecode',
+          content: 'AppreCode',
         },
       ],
     }

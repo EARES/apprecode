@@ -49,6 +49,21 @@ export default {
         property: 'twitter:card',
         content: 'summary',
       },
+      {
+        hid: 'twitter-site',
+        property: 'twitter:site',
+        content: '@apprecode'
+    },
+    {
+        hid: 'twitter-domain',
+        property: 'twitter:domain',
+        content: '@apprecode'
+    },
+    {
+        hid: 'twitter-creator',
+        property: 'twitter:creator',
+        content: '@apprecode'
+    }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
